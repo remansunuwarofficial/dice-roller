@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.my-2 {
+    margin: 20px 0;
+}
+
+#img {
+    height: 40vw;
+    width: 40vw;
+    background-image: url('Main.png');
+    background-size: cover;
+}
+
+.rolldice {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Cabin Condensed', sans-serif;
+    cursor: pointer;
+    background-color: rgb(80, 102, 225);
+    border: 1px solid rgb(80, 102, 225);
+    color: greenyellow;
+}
+
+.rolldice:hover {
+    background-color: black;
+    color: white;
+    transition: all 1s ease-out;
+}
